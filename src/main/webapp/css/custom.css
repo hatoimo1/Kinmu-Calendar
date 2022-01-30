@@ -1,0 +1,43 @@
+/* 日曜日 */
+.fc-sun {
+    color: red;
+    background-color: #fff0f0;
+}
+
+/* 土曜日 */
+.fc-sat {
+    color: blue;
+    background-color: #f0f0ff;
+}
+
+/* ボタン */
+.fc button {
+    box-sizing: border-box;
+    font-size: 2.0em;
+    height: 2.0em;
+    width: 6.0em;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.fc-title {
+    text-align:  center;
+    font-size: 2.0em;
+}
+
+.p-custom {
+	padding-top: 2.0em;
+}
+
+.div-custom {
+    text-align:  center;
+    align: center;
+    font-size: 2.0em;
+}
+
+input[type="radio"] , input[type="checkbox"]{
+    -webkit-transform: scale(3.5);
+    transform: scale(3.5);
+    margin-right: 0.8em;
+    vertical-align:middle;
+}
